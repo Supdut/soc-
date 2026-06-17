@@ -889,8 +889,7 @@ index=wineventlog
 | stats count by EventID
 | sort -count
 ```
-
-*Visualisation: Column chart or table*
+<img width="1632" height="556" alt="image" src="https://github.com/user-attachments/assets/7a41c8fa-6fc8-4864-ad09-da436db54de3" />
 
 ---
 
@@ -902,7 +901,7 @@ index=wineventlog
 | timechart span=5m count by EventID
 ```
 
-*Visualisation: Line chart*
+<img width="1626" height="698" alt="image" src="https://github.com/user-attachments/assets/5a669d60-646f-4d75-9bcc-fbf7c79421e2" />
 
 ---
 
@@ -918,7 +917,7 @@ index=wineventlog
 | head 20
 ```
 
-*Visualisation: Bar chart or table*
+<img width="1630" height="667" alt="image" src="https://github.com/user-attachments/assets/a7287b89-b192-4ca1-af0a-be64389f126c" />
 
 ---
 
@@ -935,7 +934,7 @@ index=wineventlog
 | sort - _time
 ```
 
-*Visualisation: Table*
+<img width="1895" height="985" alt="image" src="https://github.com/user-attachments/assets/30dd0caf-290f-4184-8742-a851435f16cf" />
 
 ---
 
